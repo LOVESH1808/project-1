@@ -1,0 +1,51 @@
+@media (max-width: 576px) {
+  .home-cards {
+    width: 50%;
+    text-align: center;
+    margin-left: 10%;
+  }
+}
+
+.card {
+  width: 180px;
+  height: 180px;
+  margin: 40px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 87px -10px rgba(0, 0, 0, 0.85);
+  background: linear-gradient(180deg, #fadb70 0%, rgba(246, 90, 131, 0.3) 100%);
+  text-align: center;
+}
+
+.card-logo {
+  font-size: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.card-title {
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.card-description {
+  font-size: 14px;
+  text-align: center;
+  color:  #808080;
+}
+
+.cards-heading {
+  text-align: center;
+  color: #000000;
+
+}
+
+.home-cards {
+  text-align: center;
+  padding: 12px 5%;
+}
+
+.home-cards>.card {
+  display: inline-block;
+}

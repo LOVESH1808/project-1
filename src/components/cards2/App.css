@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 576px) {
+  .home-cards
+{
+  width:50%;
+  text-align: center;
+  margin-left: 10%;
+}
+}
+.card
+{
+width: 250px;
+margin: 40px;
+border-radius: 25px;
+border: 1px solid black;
+box-shadow: 0px 4px 87px -10px rgba(0, 0, 0, 0.85);
+background: linear-gradient(180deg, #FFF8BC 0%, rgba(246, 90, 131, 0.3) 100%);
+text-align: center;
+}
+.card::after
+{
+  background: radial-gradient(180deg, rgba(255, 225, 93, 0.3) 0.6%, 
+  rgba(255, 255, 255, 0.597566) 51.22%, rgba(176, 30, 104, 0.04) 100%);
+  border: 38px solid;
+
+  border-image-source: linear-gradient(180deg, rgba(255, 225, 93, 0.3) 0.6%, rgba(255, 255, 255, 0.597566) 51.22%, rgba(176, 30, 104, 0.04) 100%);
+  
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1036px;
+  height: 997px;
+  left: 442px;
+  top: 1104px;  
+}
+.card-logo
+{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.card-title
+{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.card-description
+{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 20px;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+color: #000000;
+}
+
+.cards-heading
+{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 58px;
+text-align: center;
+margin-right: 250px;
+margin-left: 250px;
+color: #000000;
+
+}
+.home-cards
+{
+  width:80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.home-cards > .card
+{
+  display: inline-block;
+}
+
+.try
+{
+  background: linear-gradient(180deg, rgba(255, 225, 93, 0.3) 0.6%, 
+  rgba(255, 255, 255, 0.597566) 51.22%, rgba(176, 30, 104, 0.04) 100%);
+  border: 38px solid;
+
+  border-image-source: linear-gradient(180deg, rgba(255, 225, 93, 0.3) 0.6%, rgba(255, 255, 255, 0.597566) 51.22%, rgba(176, 30, 104, 0.04) 100%);
+  
+  box-sizing: border-box;
+ 
+}
